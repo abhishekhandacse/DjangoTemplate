@@ -1,11 +1,13 @@
 <!DOCTYPE html>
+{% load staticfiles %}
 <html>
   <head>
     <meta charset="utf-8">
-    <title></title>
+    <title>HardWork</title>
+    <link rel="stylesheet" href="{% static "css/style1.css" %}">
   </head>
   <body>
-      <h1>Hello this is index.html from templates</h1>
-      {{insert_me}}
+      <h1>Some Really Great Quotes on HardWork</h1>
+      <img width="60%" height="80%" src="{% static "images/HW.jpg" %}" alt="">
   </body>
 </html>
