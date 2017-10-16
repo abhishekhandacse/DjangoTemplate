@@ -15,10 +15,10 @@
       </div>
       <div class="row">
         <div class="col">
-          <form  method="POST">
+          <form   method="POST" enctype="multipart/form-data" >
             {{form.as_p}}
-            <input type="submit" class="btn btn-primary" value="Submit">
             {% csrf_token %}
+            <input type="submit" class="btn btn-primary" value="Submit">
           </form>
         </div>
       </div>
